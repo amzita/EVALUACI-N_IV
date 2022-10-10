@@ -1,0 +1,115 @@
+/* patners */
+.patners{
+    padding: 1rem 2rem;
+}
+.galeria {
+    margin-top: 10rem;
+}
+.item {
+    margin: 5rem 0rem;
+}
+.jc-img{
+    width: 100%;
+    height: 30rem;
+}
+.jc-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.patners {
+    width: 100%;
+}
+
+.patners.titulo {
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    padding: 4rem 2rem;
+}
+.etiqueta {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.etiqueta span {
+    font-weight: 900;
+}
+.etiqueta hr{
+    margin: 0 1rem;
+}
+
+.patners.titulo span, h1, p {
+    color: var(--color2);
+    margin-top: 1.5rem;
+}
+.patners .titulo h2 {
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+.patners span{
+    font-size: 2rem;
+    color: black;
+}
+.patners p {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    color: black;
+}
+
+.contenido{
+    width: 100%;
+    padding: 4rem 2rem;
+}
+.contenido p {
+    color: var(--color2);
+    font-size: 1.4rem;
+}
+.botones {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones .bt1 {
+    text-decoration: none;
+    display: block;
+    background-color: var(--color1);
+    color: #fff;
+    width: 20rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    
+    
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .About-Rappi {
+        width: 80%;
+        margin: auto;
+
+        display: flex;
+    }
+    .About-Rappi .titulo {
+        width: 40%;
+    }
+    .contenido{
+        width: 60%;
+    }
+    .contenido p {
+        color: var(--color2);
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    background-color: white;
+    padding: 1rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 80%;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li {
+    font-size: 1rem;
+    font-weight: 750;
+    padding: 1rem 3rem;
+    color: var(--color2);
+}
+
+
+/* Este @media se ejecuta cuando la plantalla es  mayor o igual a 1200px*/
+
+@media only screen and (min-width: 1200px){
+    
+    header {
+        width: 80%;
+        margin: auto;
+        padding: 1rem 5rem;
+    
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 65rem;
+    }
+
+    .menu {
+        width: 61rem;
+    }
+
+}

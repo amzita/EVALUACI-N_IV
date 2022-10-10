@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    color: var(--color2);
+}
+
+:root {
+    --color1 : rgb(197, 143, 197);
+    --color2 : black;
+    --color3 : rgb(134, 134, 230);
+    --color4 : white;
+    --color5 : white;
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 9px;
+    }
+}

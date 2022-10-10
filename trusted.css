@@ -1,0 +1,16 @@
+.trusted{
+    height: 30rem;
+    padding: 2rem;
+    background-color: var(--color1);
+}
+.trusted .etiqueta {
+    color: var(--color4);
+}
+.trusted h2 {
+    color: var(--color4);
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.trusted p {
+    font-size: 1.6rem;
+}

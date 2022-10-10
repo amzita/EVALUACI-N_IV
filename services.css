@@ -1,0 +1,130 @@
+/* services */
+.services {
+    width: 100%;
+}
+
+.services .titulo {
+    width: 100%;
+    background-color: var(--color5);
+    padding: 4rem 2rem;
+}
+
+.etiqueta {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.etiqueta span {
+    font-weight: 900;
+}
+.etiqueta hr{
+    margin: 0 1rem;
+}
+.services span, h1, p {
+    color: var(--color2);
+    margin-top: 1.5rem;
+}
+.services .titulo h2 {
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+.services span{
+    font-size: 2rem;
+    color: black;
+}
+.services p {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    color: black;
+}
+.services{
+    padding: 1rem 2rem;
+}
+.galeria {
+    margin-top: 50rem;
+}
+.item {
+    margin: 50rem 50rem;
+}
+.jc-img{
+    width: 100%;
+    height: 30rem;
+}
+.jc-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botones {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones .bt1 {
+    text-decoration: none;
+    display: block;
+    background-color: var(--color1 );
+    color:white;
+    width: 20rem;
+    border-block: 10rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones .bt2 {
+    text-decoration: none;
+    display: block;
+    border: 1px solid var(--color2);
+    width: 15rem;
+    border-block: 10rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: var(--color2);
+    
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .services {
+        width: 80%;
+        margin: auto;
+
+        display: flex;
+    }
+    .services .titulo {
+        width: 40%;
+    }
+    .contenido{
+        width: 60%;
+    }
+    .botones {
+        width: 100%;
+        margin-top: 10rem;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .botones .bt1 {
+        margin-top: 0;
+    }
+    .botones .bt2 {
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+}
